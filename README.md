@@ -73,9 +73,6 @@
 			-webkit-animation: boat-bob 7s ease-in-out infinite;
 			animation: boat-bob 7s ease-in-out infinite;
 			transition: all .3s ease-in-out;
-		}
-		
-		.boat-ship {
 			background: transparent;
 		}
 		
