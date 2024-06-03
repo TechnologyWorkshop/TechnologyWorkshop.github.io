@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,15 +7,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <style>
         body {
-            background-color: #0b3a53;
-            color: #ffffff;
-            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;
+			background-image: url('https://helm.sh/img/topography.png'); 
+			font-family: Public Sans, Helvetica, Arial, sans-serif; 
+			color:#090E6F;
         }
         header {
             width: 100%;
@@ -23,10 +23,17 @@
             justify-content: center;
             align-items: center;
 			margin-bottom: 20px;
+			text-align: center;
         }
+		
+		header h1 {
+			margin-left: 20px;
+		}
+		
         header img {
             height: 150px;
         }
+		
         main {
             background-color: #ffffff;
             border-radius: 8px;
@@ -37,7 +44,7 @@
             color: #333;
         }
         h1 {
-            color: #0b3a53;
+            color: #090E6F;
             font-size: 2.5em;
         }
         p {
@@ -134,17 +141,32 @@
 	svg[Kenmerkstijl] {
 		shape-rendering: auto;
 	}
+	
     </style>
 </head>
-<body style="background-image: url('https://helm.sh/img/topography.png'); font-family: Public Sans, Helvetica, Arial, sans-serif;; color:#090E6F;">
+<body>
     <header>
-        <img src="https://helm.sh/img/helm.svg" alt="Helm Logo">
+	
+		<img src="https://helm.sh/img/helm.svg" alt="Helm Logo">
+		<img src="https://aidanfinn.com/wp-content/uploads/2022/01/GitHub-logo-1200x675.png" alt="GitHub Logo">
+		
     </header>
     <main>
-        <h1>Helm</h1>
-        <p>Helm is een pakketmanager voor Kubernetes, een open-source platform voor het automatiseren van de deployment, scaling en management van containerized applicaties. Helm helpt je bij het beheren van Kubernetes-applicaties door het organiseren van alle benodigde Kubernetes-manifestbestanden in een enkel pakket, genaamd een chart.</p>
-        <p>Met Helm kun je gemakkelijk applicaties installeren, upgraden en beheren binnen je Kubernetes-cluster. Het vereenvoudigt de complexiteit van het handmatig beheren van Kubernetes-resources en biedt herhaalbare applicatie-installaties, versiebeheer en rollback mogelijkheden.</p>
-        <p>Helm charts zijn herbruikbare pakketten van geconfigureerde Kubernetes-resources. Deze charts kunnen worden gedeeld en gebruikt om snel nieuwe applicaties te deployen in je Kubernetes-omgeving.</p>
+	
+		<section>
+			<h1>Wat is Helm</h1>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</p>
+		</section>
+		
+		<section>
+			<h1>Wat is GitHub Actions</h1>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+			</p>
+		</section>
+		
     </main>
 	
 	<div class="boat boat-full"><img src="https://helm.sh/img/boat.svg" alt="boat" class="boat-ship"><div class="wave-wrapper"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(27,83,194,0.7"></use><use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(27,83,194,0.5)"></use><use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(27,83,194,0.3)"></use><use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(27,83,194,1)"></use></g></svg></div></div>
