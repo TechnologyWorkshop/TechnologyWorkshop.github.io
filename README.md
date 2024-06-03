@@ -58,6 +58,11 @@
 			z-index: 1070;
 		}
 		
+		.boat-full {		
+		position: fixed;
+		bottom: 0;
+		}
+		
 		.boat .boat-ship {
 			position: absolute;
 			margin-top: 0.5vw;
@@ -68,6 +73,10 @@
 			-webkit-animation: boat-bob 7s ease-in-out infinite;
 			animation: boat-bob 7s ease-in-out infinite;
 			transition: all .3s ease-in-out;
+		}
+		
+		.boat-ship {
+			background: transparent;
 		}
 		
 		.boat .wave-wrapper {
@@ -95,40 +104,40 @@
 	}
 	
 	.boat:after {
-    content: "ahoy!";
-    font-family: "Space Mono", "Courier New", monaco, monospace;
-    font-size: .75rem;
-    padding: 0.75em;
-    color: #091C84;
-    background: #F8DCDF;
-    position: absolute;
-    bottom: 8vw;
-    left: 13.5vw;
-    line-height: 1;
-    z-index: 1005;
-    opacity: 0;
-    transition: all .3s ease-in-out;
-}
+		content: "ahoy!";
+		font-family: "Space Mono", "Courier New", monaco, monospace;
+		font-size: .75rem;
+		padding: 0.75em;
+		color: #091C84;
+		background: #F8DCDF;
+		position: absolute;
+		bottom: 8vw;
+		left: 13.5vw;
+		line-height: 1;
+		z-index: 1005;
+		opacity: 0;
+		transition: all .3s ease-in-out;
+	}
 
-.boat .wave-wrapper:before {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: " ";
-    height: 3.5vw;
-    width: 100%;
-    background: #1B53C2;
-    transition: all .3s ease-in-out;
-}
+	.boat .wave-wrapper:before {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		content: " ";
+		height: 3.5vw;
+		width: 100%;
+		background: #1B53C2;
+		transition: all .3s ease-in-out;
+	}
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
+	*, *::before, *::after {
+		box-sizing: inherit;
+	}
 
-svg[Kenmerkstijl] {
-    shape-rendering: auto;
-}
+	svg[Kenmerkstijl] {
+		shape-rendering: auto;
+	}
     </style>
 </head>
 <body style="background-image: url('https://helm.sh/img/topography.png'); font-family: Public Sans, Helvetica, Arial, sans-serif;; color:#090E6F;">
